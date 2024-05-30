@@ -1,5 +1,32 @@
 *{
     font-family: sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* Index page css */
+#menu{
+    background-color: lightgray;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#index-title{
+    text-align: center;
+    padding: 8px 0;
+}
+
+#navbar, #navbar li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    display: block;   
+}
+
+#navbar li a{
+    border: solid white 1px;
+    /* margin: 200px 0; */
 }
 
 .recipe_img{
